@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/suchitrasahu996-creator/Fleet-Management-System-module-4-Evaluation-/issues"
   },

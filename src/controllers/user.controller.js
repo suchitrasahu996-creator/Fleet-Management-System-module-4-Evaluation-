@@ -17,7 +17,12 @@ exports.signupUser = async (req,res )=>{
         });
 
         if (error){
-            return res.status(400).json({message:error.message})
+            return res.status(400).json({message:error.message});
+
         }
+        res.status(201).json({message:"user registered successfully"});
+
+    }catch(err){
+        res.status(500).json({message:err.message})
     }
 }
